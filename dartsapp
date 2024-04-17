@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 
 # Fetch data
 url = "https://www.leagueleader.net/sharedreport.php?operatorid=35&code=384bcd97-0045-4547-88bb-5047a43aa13c"
-data = pd.read_html(url)[3]  # Assuming the table is the first one on the page
+data = pd.read_html(url)[3],[4]  # Assuming the table is the first one on the page
 
 # Data processing
 # You may need to clean and format the data according to your requirements
